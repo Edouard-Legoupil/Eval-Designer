@@ -1,0 +1,27 @@
+# requirements.txt
+streamlit
+openai
+pydantic 
+python-dotenv
+pandas
+numpy
+scipy
+
+# Framework for developing applications powered by language models
+langchain
+
+# LangChain integration for OpenAI models
+langchain-openai
+
+# Third-party integrations for LangChain (community-supported components)
+langchain-community
+
+# Framework for orchestrating role-playing AI agents to collaborate on tasks
+crewai
+crewai[tools]
+crewai[azure]
+crewai[azure-ai-inference]
+pydantic[email]
+
+# Unified interface to call various LLM APIs (OpenAI, Anthropic, etc.) with consistent formatting
+litellm
